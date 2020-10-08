@@ -1,0 +1,6 @@
+Azure get: https://ietitaskplanner07.azurewebsites.net/api/list-tasks?code=aXpGFLCaHPLvE5YSJgmaxpNlgvuPL/5YwH5aO/ePCTKAq4eNd/uYYQ==
+Azure post: https://ietitaskplanner07.azurewebsites.net/api/add-task?code=52bxhWcjRVsmESiLS8nKSxkcCeZuua3FoHaGYxOV0saGHzQSqg0otw==
+Firebase1 Front: https://task-planner-lab7.firebaseapp.com/
+Firebase2 Front: https://task-planner-lab7.web.app/
+Git back:https://github.com/jnicolasct/IETI-LAB7
+Git Front:https://github.com/jnicolasct/IETI-LAB7-FRONT

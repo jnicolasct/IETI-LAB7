@@ -1,27 +1,29 @@
+
+
 const items  =[
     {"id":1, 
-    "descripcion":"prueba", 
-    "dueDate": new Date().toString(), 
+    "description":"prueba",
+    "dueDate": new Date().toDateString(),
     "status":"en pruebas", 
-    "responsable":{
+    "responsible":{
         "name":"nicolas cortes", 
         "email": "nc@mail.com"
         }
     },
     {"id":2, 
-    "descripcion":"prueba2", 
-    "dueDate": new Date().toString(), 
+    "description":"prueba2",
+    "dueDate": new Date().toDateString(),
     "status":"en pruebas2", 
-    "responsable":{
+    "responsible":{
         "name":"johan cortes", 
         "email": "jc@mail.com"
         }
     },
     {"id":3, 
-    "descripcion":"prueba3", 
-    "dueDate": new Date().toString(), 
+    "description":"prueba3",
+    "dueDate": new Date().toDateString(),
     "status":"en pruebas3", 
-    "responsable":{
+    "responsible":{
         "name":"cristian cortes", 
         "email": "cc@mail.com"
         }
@@ -30,12 +32,10 @@ const items  =[
 ]
 
 function addTask(task){
-    console.log("pr");
     items.push(task);
 }
 
 function getTasks(){
-    console.log("prg");
     return items;
 }
 

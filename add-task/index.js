@@ -6,13 +6,13 @@ module.exports = async function (context, req) {
     const task = req.body;
     const { v4: uuidv4 } = require('uuid');
     const id= uuidv4();
-    const descripcion = task.descripcion;
+    const description = task.description;
     const dueDate = task.dueDate;
     const status = task.status;
-    const responsableName = task.responsable.name;
-    const responsableEmail = task.responsable.email;
+    const responsableName = task.responsible.name;
+    const responsableEmail = task.responsible.email;
 
-    const responseMessage = {"id":id, "descripcion":descripcion, "dueDate":dueDate, "status":status, "responsable":{"name":responsableName, "email": responsableEmail} };
+    const responseMessage = {"id":id, "description":description, "dueDate":dueDate, "status":status, "responsible":{"name":responsableName, "email": responsableEmail} };
 
     apiList.addTask(responseMessage);
 
