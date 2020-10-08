@@ -1,0 +1,22 @@
+{
+  "name": "ieti-lab7",
+  "version": "1.0.0",
+  "description": "IETI-LAB7",
+  "main": "",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnicolasct/IETI-LAB7.git"
+  },
+  "author": "Nicolas Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnicolasct/IETI-LAB7/issues"
+  },
+  "homepage": "https://github.com/jnicolasct/IETI-LAB7#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}
